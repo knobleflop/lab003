@@ -52,7 +52,7 @@ Now that you have user inputs ready, you’ll move to handling peer-to-peer comm
   def chat_task(ctx, pipe, n, group):  # function name is chat_task
   def get_peer_node(username): #function name is get_peer_node
     username #The username you wish to be displayed for yourself is taken from the get_username function
-  #Returns something that looks to be a Pyre Node 
+  #Returns something that looks like it could be a "Pyre" Node 
   def join_group(node, group): #function name join_group
     group #Should be the group that you would like to join from the get_group function
     node #Should be my peer computer node
